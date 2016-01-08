@@ -1,0 +1,30 @@
+{
+  "name": "restify-jwt-auth-next",
+  "description": "Lightweight JWT middleware for restify.",
+  "version": "0.0.0",
+  "dependencies": {
+    "jsonwebtoken": "^5.5.4"
+  },
+  "scripts": {
+    "lint": "standard lib/",
+    "pretest": "npm run lint",
+    "test": "istanbul cover tape 'test/*.spec.js'",
+    "posttest": "(istanbul check-coverage --statements 90 --branches 90 --functions 100 --lines 90) || echo Look at 'coverage/lcov-report/index.html' to find out more"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": "Robert Jefe Lindstaedt <robert.lindstaedt@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^2.11.6",
+    "express": "^4.13.3",
+    "istanbul": "^0.3.19",
+    "restify": "^4.0.3",
+    "tape": "^4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eljefedelrodeodeljefe/restify-jwt-auth-next.git"
+  }
+}
