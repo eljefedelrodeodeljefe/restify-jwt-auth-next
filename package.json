@@ -1,7 +1,7 @@
 {
   "name": "restify-jwt-auth-next",
   "description": "Lightweight JWT middleware for restify.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "dependencies": {
     "jsonwebtoken": "^5.5.4"
   },
