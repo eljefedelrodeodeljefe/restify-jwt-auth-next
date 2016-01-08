@@ -2,7 +2,7 @@
 
 Lightweight JWT middleware for restify.
 
-[![build status](https://secure.travis-ci.org/eljefedelrodeodeljefe/restify-jwt-next.svg)](http://travis-ci.org/eljefedelrodeodeljefe/restify-jwt-auth-next) [![Coverage Status](https://coveralls.io/repos/eljefedelrodeodeljefe/restify-jwt-auth-next/badge.svg?branch=master&service=github)](https://coveralls.io/github/eljefedelrodeodeljefe/restify-jwt-auth-next?branch=master)
+[![build status](https://secure.travis-ci.org/eljefedelrodeodeljefe/restify-jwt-auth-next.svg)](http://travis-ci.org/eljefedelrodeodeljefe/restify-jwt-auth-next) [![Coverage Status](https://coveralls.io/repos/eljefedelrodeodeljefe/restify-jwt-auth-next/badge.svg?branch=master&service=github)](https://coveralls.io/github/eljefedelrodeodeljefe/restify-jwt-auth-next?branch=master)
 ## Installation
 
 ```
