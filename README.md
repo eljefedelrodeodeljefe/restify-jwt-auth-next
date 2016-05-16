@@ -24,8 +24,8 @@ let handler = function (req, res, next) {
 
 let options = {
   secret: 'jwtsecret',
-  blacklist: [], // blacklist routes like '/noaccess'
-  whitelist: [], // whitelist routes like '/immediate'
+  blacklist: [], // blacklist routes like '/noaccess', will always return handler
+  whitelist: [], // whitelist routes like '/immediate', no auth needed
   handler: handler // default is redirect as above. Will send a 302 and the login route
 }
 
