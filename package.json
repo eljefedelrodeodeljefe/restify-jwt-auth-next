@@ -3,7 +3,7 @@
   "description": "Lightweight JWT middleware for restify.",
   "version": "1.0.2",
   "dependencies": {
-    "jsonwebtoken": "^5.5.4"
+    "jsonwebtoken": "^6.2.0"
   },
   "scripts": {
     "lint": "standard lib/",
@@ -19,8 +19,9 @@
   "devDependencies": {
     "coveralls": "^2.11.6",
     "express": "^4.13.3",
-    "istanbul": "^0.3.19",
+    "istanbul": "^0.4.3",
     "restify": "^4.0.3",
+    "standard": "^7.0.1",
     "tape": "^4.4.0"
   },
   "repository": {
