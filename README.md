@@ -16,7 +16,7 @@ npm install --save restify-jwt-auth-next
 const restify = require('restify')
 const jwtAuth = require('restify-jwt-auth-next')
 
-var restify = restify.createServer({
+var restify = restify.createServer({})
 
 let handler = function (req, res, next) {
   return res.redirect('/login', next)
